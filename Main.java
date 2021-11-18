@@ -11,7 +11,7 @@ public class Main {
         estudiante.getMateriasAprobadas().add("Comunicación Visual");
         estudiante.getMateriasAprobadas().add("Introducción a la programación");
 
-        estudiante.getMateriasInscriptas().add("Programaciòn orientada a objetos");
+        estudiante.getMateriasInscriptas().add("Programación orientada a objetos");
         estudiante.getMateriasInscriptas().add("Sistemas empresariales");
 
         // Imprimir objetos 'Estudiante' y 'Profesor'
