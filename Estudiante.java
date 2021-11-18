@@ -34,4 +34,25 @@ public class Estudiante extends Usuario {
         this.materiasInscriptas = materiasInscriptas;
     }
 
+    public void imprimirMateriasAprobadas() {
+        System.out.println("");
+        System.out.println("Materias aprobadas:");
+
+        for (int i = 0; i < materiasAprobadas.size(); i++) {
+            System.out.println(materiasAprobadas.get(i));
+        }
+
+        System.out.println("");
+    }
+
+    public void imprimirMateriasInscriptas(){
+        System.out.println("");
+        System.out.println("Materias Inscriptas:");
+
+        for (int i = 0; i < materiasInscriptas.size(); i++) {
+            System.out.println(materiasInscriptas.get(i));
+        }
+
+        System.out.println("");
+    }
 }
