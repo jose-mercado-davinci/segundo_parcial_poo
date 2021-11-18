@@ -41,8 +41,6 @@ public class Estudiante extends Usuario {
         for (int i = 0; i < materiasAprobadas.size(); i++) {
             System.out.println(materiasAprobadas.get(i));
         }
-
-        System.out.println("");
     }
 
     public void imprimirMateriasInscriptas(){
@@ -52,7 +50,5 @@ public class Estudiante extends Usuario {
         for (int i = 0; i < materiasInscriptas.size(); i++) {
             System.out.println(materiasInscriptas.get(i));
         }
-
-        System.out.println("");
     }
 }
